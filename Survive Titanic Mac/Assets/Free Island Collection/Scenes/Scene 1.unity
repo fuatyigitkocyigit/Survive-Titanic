@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 0.25
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 984039097}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 0.25}
+  m_IndirectSpecularColor: {r: 0.19819814, g: 0.21963787, b: 0.25607872, a: 0.25}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -123,6 +123,67 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &189115499
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: ddc0d18c97e18d24b8d654dc20d88b95, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ddc0d18c97e18d24b8d654dc20d88b95, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 298.72382
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ddc0d18c97e18d24b8d654dc20d88b95, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 41.236725
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ddc0d18c97e18d24b8d654dc20d88b95, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 758.4957
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ddc0d18c97e18d24b8d654dc20d88b95, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ddc0d18c97e18d24b8d654dc20d88b95, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ddc0d18c97e18d24b8d654dc20d88b95, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ddc0d18c97e18d24b8d654dc20d88b95, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ddc0d18c97e18d24b8d654dc20d88b95, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ddc0d18c97e18d24b8d654dc20d88b95, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ddc0d18c97e18d24b8d654dc20d88b95, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ddc0d18c97e18d24b8d654dc20d88b95, type: 3}
+      propertyPath: m_Name
+      value: SM_Bld_Large_05
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ddc0d18c97e18d24b8d654dc20d88b95, type: 3}
 --- !u!1 &984039096
 GameObject:
   m_ObjectHideFlags: 0
@@ -306,7 +367,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1881430203
 GameObject:
@@ -371,7 +432,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2121255496
 GameObject:
@@ -469,14 +530,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2121255496}
-  m_LocalRotation: {x: 0.122694306, y: -0.7830318, z: 0.16354387, w: 0.5874187}
-  m_LocalPosition: {x: 2639.2563, y: 455.5958, z: 1512.1672}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 303.71, y: 43.7, z: 742.09}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 50.43, z: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2121255502
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -489,7 +550,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff26db721962cdf4a8edcdfa9a767d2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  profile: {fileID: 11400000, guid: 798da62f5f5e64f4991acae91a65b1d6, type: 2}
 --- !u!114 &2121255503
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -514,19 +574,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd973f292fd167f4a96d9146abd29403, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  renderMode: 1
-  geometryType: 3
-  renderWaterDepth: 1
-  baseEffectsQuality: 1
-  superSampling: 1
-  renderVolumes: 1
-  renderFlatMasks: 1
-  forcedVertexCount: 0
-  submersionStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UltimateWater.WaterCamera+WaterCameraEvent, Assembly-CSharp, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  mainWater: {fileID: 0}
-  effectsLight: {fileID: 0}
-  ReflectionCamera: {fileID: 0}
