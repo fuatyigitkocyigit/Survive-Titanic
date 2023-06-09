@@ -23,10 +23,10 @@ public class WalkingSFX : MonoBehaviour
     private AudioClip waterWalk;
     // add more audio clips as needed
 
-    public TerrainType CurrentTerrain { get; set; } = TerrainType.Grass;
 
     private AudioSource walkSource;
     private CharacterController characterController;
+    private TerrainType currentTerrain;
 
     private void Start()
     {
@@ -36,7 +36,7 @@ public class WalkingSFX : MonoBehaviour
 
     private void Update()
     {
-        switch (CurrentTerrain)
+        switch (currentTerrain)
         {
             case TerrainType.Grass:
                 walkSource.clip = grassWalk;
@@ -60,6 +60,28 @@ public class WalkingSFX : MonoBehaviour
         else if (walkSource.isPlaying && characterController.velocity.magnitude < 0.1f)
         {
             walkSource.Stop();
+        }
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        switch(collision.gameObject.tag)
+        {
+            case "Grass":
+                currentTerrain = TerrainType.Grass;
+                break;
+
+            case "Wood":
+                currentTerrain = TerrainType.Wood;
+                break;
+
+            case "Sand":
+                currentTerrain = TerrainType.Sand;
+                break;
+
+            case "Water":
+                currentTerrain = TerrainType.Water;
+                break;
         }
     }
 }
