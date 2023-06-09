@@ -1,1 +1,1 @@
-/Users/fyk/Documents/GitHub/Survive-Titanic/Survive Titanic Mac
+/Library/Unity Projects/Survive-Titanic/Survive Titanic Mac
