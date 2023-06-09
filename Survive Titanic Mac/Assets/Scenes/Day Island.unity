@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4511038, g: 0.5009098, b: 0.5740387, a: 1}
+  m_IndirectSpecularColor: {r: 0.451104, g: 0.5009101, b: 0.57403916, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -488,7 +488,7 @@ PrefabInstance:
       addedObject: {fileID: 2081810955}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 600b2d73dcc6638489534aa506db01fd, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2081810954}
+      addedObject: {fileID: 2081810961}
   m_SourcePrefab: {fileID: 100100000, guid: 600b2d73dcc6638489534aa506db01fd, type: 3}
 --- !u!1 &303695017
 GameObject:
@@ -6371,18 +6371,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 600b2d73dcc6638489534aa506db01fd, type: 3}
   m_PrefabInstance: {fileID: 235611113}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2081810954
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2081810953}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0860f5b11313c17498572bd91a951ad0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &2081810955
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6578,3 +6566,19 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 600b2d73dcc6638489534aa506db01fd, type: 3}
   m_PrefabInstance: {fileID: 235611113}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2081810961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2081810953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1eb19919122744259f6bb50619176c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  grassWalk: {fileID: 8300000, guid: 0a28b7ae110d34212becad4b36232f05, type: 3}
+  woodWalk: {fileID: 8300000, guid: 3aab149f3ce8b4b8e884cd153a5d00c7, type: 3}
+  sandWalk: {fileID: 8300000, guid: c45f0b04d6bc8488b9b4b23e238eb219, type: 3}
+  waterWalk: {fileID: 8300000, guid: e266bef294a0c432f8ee77319d1c183c, type: 3}
