@@ -366,14 +366,12 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.1f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.1f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
-"Assets/Conifers [BOTD]/Render Pipeline Support/Built-in RP/CTI Runtime Components/Scripts/CTI_CustomWind.cs"
-"Assets/Conifers [BOTD]/Render Pipeline Support/Built-in RP/CTI Runtime Components/Scripts/CTI_Utils.cs"
+"Assets/Character/WalkingSFX.cs"
 "Assets/Script/MOUSEMOVE.cs"
 "Assets/Script/New_Move.cs"
 "Assets/Unity-Water-Shaders-main/Scripts/Player.cs"
 "Assets/Unity-Water-Shaders-main/Scripts/RippleEffect.cs"
 "Assets/Unity-Water-Shaders-main/Scripts/SimpleCameraController.cs"
-"Assets/WalkingSFX.cs"
 -langversion:9.0
 
 /deterministic
