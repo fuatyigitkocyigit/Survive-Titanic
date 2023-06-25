@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f1eb19919122744259f6bb50619176c7
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - grassWalk: {fileID: 8300000, guid: 0a28b7ae110d34212becad4b36232f05, type: 3}
+  - woodWalk: {fileID: 8300000, guid: 3aab149f3ce8b4b8e884cd153a5d00c7, type: 3}
+  - sandWalk: {fileID: 8300000, guid: c45f0b04d6bc8488b9b4b23e238eb219, type: 3}
+  - waterWalk: {fileID: 8300000, guid: e266bef294a0c432f8ee77319d1c183c, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
